@@ -2,7 +2,7 @@
 
 ### This is a Product Listings Page (PLP) for a footwear retailer. I created this for a software company that offers an ecommerce platform for retailers.
 
-## Client brief
+## 1. Client brief
 
 I was asked to write functionality and styling to:
 
@@ -13,7 +13,7 @@ I was asked to write functionality and styling to:
 - Create a dropdown to sort all products into ascending or descending price order
 - Add an option to sort all products by relevance - with all available products shown first in ascending rank order, then all unavailable products in ascending rank order.
 
-## Project setup
+## 2. Installation
 
 _Clone this repo and run the following commands in your terminal._
 
@@ -29,7 +29,7 @@ npm run serve
 npm run build
 ```
 
-## Functionality
+## 3. Functionality
 
 Users can:
 
@@ -40,7 +40,7 @@ Users can:
 - Sort all products into ascending or descending price order from a dropdown menu
 - Sort all products by relevance from a dropdown menu
 
-## Tools and Technologies
+## 4. Tools and Technologies
 
 - Vue.js
 - JavaScript
