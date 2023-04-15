@@ -12,7 +12,7 @@
         <label style="width: 100px">
           <select id="brand-select" v-model="selectedBrand">
             <option value="">All brands</option>
-            <option v-for="brand in brands" :value="brand">
+            <option v-for="brand in brands" :key="brand" :value="brand">
               {{ brand }}
             </option>
           </select>
