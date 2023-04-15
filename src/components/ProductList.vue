@@ -135,6 +135,14 @@ export default {
   margin-bottom: 10px;
 }
 
+.grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
 .sort-container {
   display: flex;
   justify-content: flex-end;
