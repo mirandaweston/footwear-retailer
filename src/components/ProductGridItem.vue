@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: "Product",
+  name: "ProductGridItem",
   props: {
     id: Number,
     name: String,
