@@ -1,5 +1,4 @@
 import ProductList from "../src/components/ProductList";
-import Product from "../src/components/ProductGridItem";
 
 describe("ProductList", () => {
   let props;
