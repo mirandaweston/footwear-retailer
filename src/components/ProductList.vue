@@ -124,15 +124,16 @@ export default {
 }
 
 .filter-column {
-  width: 30%;
+  margin-left: 85px;
 }
 
 .sort-column {
-  width: 65%;
+  margin-right: 78px;
+  margin-bottom: -30px;
 }
 
 .filter-heading {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .grid {
@@ -144,8 +145,6 @@ export default {
 }
 
 .sort-container {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  margin-bottom: -50px;
 }
 </style>
