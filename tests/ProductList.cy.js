@@ -70,7 +70,7 @@ describe("ProductList", () => {
   });
 
   it("sorts products into ascending price order", () => {
-    cy.get("#sort-select").select("Price: Low to High");
+    cy.get("#sort-select").select("Price: Low to High", { force: true });
 
     cy.get(".grid").children().first().should("contain", "Product 2");
 
@@ -78,7 +78,7 @@ describe("ProductList", () => {
   });
 
   it("sorts products into descending price order", () => {
-    cy.get("#sort-select").select("Price: High to Low");
+    cy.get("#sort-select").select("Price: High to Low", { force: true });
 
     cy.get(".grid").children().first().should("contain", "Product 3");
 
@@ -86,10 +86,14 @@ describe("ProductList", () => {
   });
 
   it("sorts products by relevance", () => {
-    cy.get("#sort-select").select("Relevance");
+    cy.get("#sort-select").select("Relevance", { force: true });
 
     cy.get(".grid").children().first().should("contain", "Product 1");
 
     cy.get(".grid").children().last().should("contain", "Product 2");
+  });
+
+  it("contains branding statement", () => {
+    cy.get("div").should("contain", "Powered by Hullabalook");
   });
 });

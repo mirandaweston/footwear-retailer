@@ -43,7 +43,7 @@
       />
     </div>
   </div>
-  <div>Powered by Hullabalook</div>
+  <div class="branding">Powered by Hullabalook</div>
 </template>
 
 <script>
@@ -146,5 +146,9 @@ export default {
 
 .sort-container {
   margin-bottom: -50px;
+}
+
+.branding {
+  margin-left: 85px;
 }
 </style>
